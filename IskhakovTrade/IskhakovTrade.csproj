@@ -165,6 +165,7 @@
     <Resource Include="Resources\S563T4.jpg" />
     <Resource Include="Resources\V483R7.jpg" />
     <Resource Include="Resources\V783T5.jpg" />
+    <Resource Include="Resources\picture.png" />
     <Content Include="TradeDb.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>TradeDb.Context.cs</LastGenOutput>

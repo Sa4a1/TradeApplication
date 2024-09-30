@@ -39,5 +39,7 @@ namespace IskhakovTrade
         public virtual DbSet<Product> Product { get; set; }
         public virtual DbSet<Role> Role { get; set; }
         public virtual DbSet<User> User { get; set; }
+
+       
     }
 }

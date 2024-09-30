@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\4-курс\Iskhakov\IskhakovTrade\obj\Debug\
+D:\VS projects\tradeapp\TradeApplication\IskhakovTrade\obj\Debug\
 IskhakovTrade
 none
 false
 DEBUG;TRACE
-D:\4-курс\Iskhakov\IskhakovTrade\App.xaml
-2564467841
-2-1390706350
-201019913436
-18382052295
+D:\VS projects\tradeapp\TradeApplication\IskhakovTrade\App.xaml
+21247325643
+2-603552541
+1771150587
+18378273675
 MainWindow.xaml;ProductPage.xaml;
 
-False
+True
 
