@@ -10,16 +10,16 @@
 
     <Grid>
         <Grid.RowDefinitions >
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="80"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="0.05*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.RowSpan="1">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0">
             <TextBlock Text="Введите название для поиска:" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBox Name="SearchTxt" TextChanged="SearchTxt_TextChanged" Width="300" FontSize="20" />
+            <TextBox Name="SearchTxt" TextChanged="SearchTxt_TextChanged" Width="300" FontSize="15" />
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.RowSpan ="1" HorizontalAlignment="Center" Margin="580,0,0,0" >
+        <StackPanel Orientation="Horizontal" Grid.Row ="0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="580,0,0,0" >
             <ComboBox Name="CostSortBox" SelectionChanged="CostSortBox_SelectionChanged" Width="100" Height="20">
                 <TextBlock Text="Все"/>
                 <TextBlock Text="стоимость по возрастанию"/>
@@ -32,11 +32,17 @@
                 <TextBlock Text="Скидки от 15%"/>
             </ComboBox>
         </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row ="0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0">
+            <TextBlock Text="Вы авторизованны как:"/>
+            <TextBlock Text="{Binding UserName}"/>
+            <TextBlock Text="{Binding UserPatronymic}"/>
+            <TextBlock Text="{Binding RoleName}"/>
+        </StackPanel>
 
         <ListView Name="ProductListView" Grid.Row="1" >
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
+                    <Grid Background="{Binding BackColor}">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
@@ -63,7 +69,7 @@
 
                         <TextBlock Text="{Binding ProductName}" Grid.Column="1" Grid.Row="0" FontWeight="Bold"/>
                         <TextBlock Text="{Binding ProductManufacturer}" Grid.Column="1" Grid.Row="1"/>
-                        <TextBlock Text="{Binding ProductDiscription}" Grid.Column="1" Grid.Row="2"/>
+                        <TextBlock Text="{Binding ProductDescription}" Grid.Column="1" Grid.Row="2"/>
                         <TextBlock Text="{Binding ProductCost}" Grid.Column="1" Grid.Row="3"/>
                         <TextBlock Text="{Binding ProductDiscountAmount}" Grid.Column="2" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15,0,0,0"/>
 

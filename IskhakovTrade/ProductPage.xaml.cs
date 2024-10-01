@@ -20,13 +20,18 @@ namespace IskhakovTrade
     /// </summary>
     public partial class ProductPage : Page
     {
-        public ProductPage()
+        public ProductPage(User user)
         {
             InitializeComponent();
             var currentProduct = IskhakovTradeEntities.GetContext().Product.ToList();
             ProductListView.ItemsSource = currentProduct;
             CostSortBox.SelectedIndex = 0;
             FilterBox.SelectedIndex = 0;
+            if (user == null)
+            {
+
+            }
+            ;
         }
 
         private void UpdatePage()

@@ -47,3 +47,27 @@ D:\VS projects\tradeapp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.c
 D:\VS projects\tradeapp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.csproj.CopyComplete
 D:\VS projects\tradeapp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.exe
 D:\VS projects\tradeapp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.pdb
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\bin\Debug\IskhakovTrade.exe.config
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\bin\Debug\IskhakovTrade.exe
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\bin\Debug\IskhakovTrade.pdb
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\bin\Debug\EntityFramework.dll
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\bin\Debug\EntityFramework.SqlServer.dll
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\bin\Debug\EntityFramework.xml
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\bin\Debug\EntityFramework.SqlServer.xml
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\bin\Debug\ru\EntityFramework.resources.dll
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.csprojAssemblyReference.cache
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\MainWindow.g.cs
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\ProductPage.g.cs
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\App.g.cs
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade_Content.g.cs
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade_MarkupCompile.cache
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade_MarkupCompile.lref
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\MainWindow.baml
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\ProductPage.baml
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.g.resources
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.Properties.Resources.resources
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.csproj.GenerateResource.cache
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.csproj.CoreCompileInputs.cache
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.csproj.CopyComplete
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.exe
+D:\4-курс\Iskhakov\GitHubDir\TradeApp\TradeApplication\IskhakovTrade\obj\Debug\IskhakovTrade.pdb
