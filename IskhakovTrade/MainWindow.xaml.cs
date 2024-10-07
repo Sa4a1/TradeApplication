@@ -31,7 +31,7 @@ namespace IskhakovTrade
 
         private void AuthorBtn_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new ProductPage()); ;
+            MainFrame.Navigate(new ProductPage(null)); ;
             AuthorBtn.Visibility = Visibility.Hidden;
             AutBtn.Visibility = Visibility.Hidden;
             LogingTxt.Visibility = Visibility.Hidden;
@@ -51,7 +51,7 @@ namespace IskhakovTrade
         private async void AutBtn_Click(object sender, RoutedEventArgs e)
         {
             User user = IskhakovTradeEntities.GetContext().User.ToList().Find(p => (p.UserLogin == LogingTxt.Text && p.UserPassword == PasswordTxt.Text));
-            if (user != null) MainFrame.Navigate(new ProductPage());
+            if (user != null) MainFrame.Navigate(new ProductPage(user));
             else if (String.IsNullOrWhiteSpace(PasswordTxt.Text) && String.IsNullOrWhiteSpace(LogingTxt.Text)) MessageBox.Show("Логин или пароль не введены");
             else
             {

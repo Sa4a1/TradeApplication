@@ -32,11 +32,14 @@
                 <TextBlock Text="Скидки от 15%"/>
             </ComboBox>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.Row ="0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0">
-            <TextBlock Text="Вы авторизованны как:"/>
-            <TextBlock Text="{Binding UserName}"/>
-            <TextBlock Text="{Binding UserPatronymic}"/>
-            <TextBlock Text="{Binding RoleName}"/>
+        <StackPanel  Orientation="Horizontal" Grid.Row ="0" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="0,50,0,0">
+            <TextBlock Name="UserTxt" />
+            
+            </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row ="0" HorizontalAlignment="Right"  VerticalAlignment="Top" Margin="0,50,0,0">
+            <TextBlock Name="RoleTxt" Text="Ваша роль: "/>
+            
         </StackPanel>
 
         <ListView Name="ProductListView" Grid.Row="1" >

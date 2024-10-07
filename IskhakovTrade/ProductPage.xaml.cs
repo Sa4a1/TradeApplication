@@ -29,7 +29,13 @@ namespace IskhakovTrade
             FilterBox.SelectedIndex = 0;
             if (user == null)
             {
-
+                RoleTxt.Text = string.Empty;
+                UserTxt.Text = string.Empty;
+            }
+            else
+            {
+                UserTxt.Text = "Вы авторизованны как: " + user.UserName + " " + user.UserSurname + " " + user.UserPatronymic;
+                RoleTxt.Text = "НУ нинаю";
             }
             ;
         }
